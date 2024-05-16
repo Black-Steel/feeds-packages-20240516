@@ -10,9 +10,11 @@ PKG_NAME:=aria2
 PKG_VERSION:=1.37.0
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://github.com/aria2/aria2/releases/download/release-$(PKG_VERSION)/
-PKG_HASH:=60a420ad7085eb616cb6e2bdf0a7206d68ff3d37fb5a956dc44242eb2f79b66b
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+#原始包PKG_SOURCE_URL:=https://github.com/aria2/aria2/releases/download/release-$(PKG_VERSION)/
+#原始值PKG_HASH:=60a420ad7085eb616cb6e2bdf0a7206d68ff3d37fb5a956dc44242eb2f79b66b
+PKG_SOURCE_URL:=https://github.com/Black-Steel/feeds-packages-20240516/files/15330092/
+PKG_HASH:=69e401acbdb9043d1b61068ed9baa4a5c5ed5ff368ac7e37fc9b3a4f7d134f9d
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=gc-sections lto
